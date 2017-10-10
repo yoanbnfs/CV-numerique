@@ -1,0 +1,52 @@
+body{margin:0;}
+header {
+  text-align: center;
+  background: linear-gradient(0deg, #fff, #eaf2f8);
+}
+p{font-family: 'Jura', sans-serif;}
+h2{font-family: monospace, cursive;}
+h4{font-family: 'Playfair Display', serif;}
+progress{border: 1px solid black;}
+footer{
+  width:100%;
+  height: 50px;
+  background-color: #131415;
+  margin-top: 10%;
+}
+.float{float: left;}
+/*_______________FORMATIONS_______________*/
+#actually{
+  float:left;
+  width: 50%;
+  border-top: 1px solid #ea703e;
+}
+#actually>h2{text-align: center;}
+#actually>ul{padding-top: 3.6%;}
+li{list-style-type: none;}
+.border-left{
+  border-left: 1px solid #EA703E;
+}
+/*_______________COMPETENCES______________*/
+#competences{
+  float: left;
+  width: 50%;
+  border-bottom-left-radius: 10px;
+  border-top: 1px solid #ea703e;
+}
+#competences>h2{text-align: center;}
+#competences>ul>li{
+  padding-left: 28.7%
+}
+/*_______________EXPERIENCE______________*/
+#experience{
+  border-bottom: 1px solid #EA703E;
+  padding-top: 15%;
+}
+#experience>p{text-align: center;}
+/*_______________PARCOURS________________*/
+#parcours{width: 100%;}
+#parcours>p{letter-spacing: 0.1em;}
+#parcours>h2{text-align: center;}
+.cuted-text{width: 50%;}
+.adjust-padding{padding-top: 0.9%;}
+/**/
